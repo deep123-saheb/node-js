@@ -1,0 +1,26 @@
+{
+  "name": "l5",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/deep123-saheb/node-js#readme",
+  "bugs": {
+    "url": "https://github.com/deep123-saheb/node-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep123-saheb/node-js.git"
+  },
+  "license": "ISC",
+  "author": "deepak saheb",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
